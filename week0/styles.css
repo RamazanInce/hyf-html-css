@@ -1,0 +1,165 @@
+#container {
+  width: 64%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 0.3%;
+  margin-bottom: 30px;
+  background-color: rgb(155, 130, 260);
+  padding: 10px;
+}
+body {
+  background-color: rgb(155, 155, 260);
+  font-family: "Helvatica", sans-serif;
+  margin: auto;
+  width: 90%;
+  border: 4px solid rgb(150, 1, 150);
+  border-top: 50px solid blue;
+  border-top-color: rgb(150, 1, 150);
+  font-size: 18px;
+}
+
+container.ice-skate-sample {
+  background-color: rgb(55, 55, 260);
+  font-size: 24px;
+}
+
+h1 {
+  position: fixed;
+  background-color: lightblue;
+  font-size: 75px;
+  color: blue;
+  margin: 0.2%;
+  width: 30%;
+}
+
+h2 {
+  text-align: center;
+}
+
+div p {
+  line-height: 1.6;
+}
+
+#links p {
+  margin-top: -4px;
+  margin-bottom: -4px;
+  text-align: center;
+}
+#ozlusoz p {
+  margin-top: -4px;
+  margin-bottom: -4px;
+  text-align: center;
+}
+.images {
+  width: 350px;
+  border: 8px double lightblue;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  float: left;
+  padding: 5px;
+}
+img.appleimage {
+  width: 200px;
+  border: 16px double red;
+  display: block;
+  margin-right: 30px;
+}
+
+p .apple-fraction {
+  color: white;
+  background-color: rgb(250, 1, 1);
+  font-style: italic;
+}
+.important-sentence {
+  color: red;
+  font-weight: bold;
+  background-color: white;
+}
+
+#firstp {
+  float: left;
+  width: 30%;
+  margin: 2px;
+  margin-bottom: 20px;
+  top: 2px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+#title {
+  float: right;
+  width: 60%;
+  line-height: 25px;
+}
+
+h3,
+h4 {
+  background-color: lightblue;
+  color: blue;
+  margin: 2px;
+  margin-bottom: 8px;
+}
+
+a:hover {
+  color: red;
+}
+
+#links ol {
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+#links,
+#ozlusoz {
+  position: fixed;
+  float: right;
+  bottom: 50px;
+  background-color: lightblue;
+  font-size: 18px;
+  margin: 0.2%;
+  width: 30%;
+  line-height: 1.4;
+  font-weight: bold;
+  font-family: "Calibri", Serif;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+thead {
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  border: 4px solid rgb(155, 130, 260);
+}
+
+#khan-academy-summary,
+#hack {
+  width: 80%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 0.3%;
+  margin-bottom: 30px;
+  background-color: lightblue;
+  padding: 10px;
+  height: 300px;
+  overflow: auto;
+}
+#footer {
+  background-color: rgb(100, 350, 150);
+  color: black;
+  margin: 5px 5px 5px 0px;
+  width: 100%;
+  font-size: 0.7em;
+}
