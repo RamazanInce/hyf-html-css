@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="en">
+        <title>Flexbox align-item</title>
+        <style>
+          section {
+            display: flex;
+            align-items: center;
+            height: 100px;
+            background: beige;
+          }
+
+          div {
+            background: cyan;
+            margin: 5px;
+            padding: 10px;
+            }
+
+          #deel1 {
+            align-self: flex-end;
+            background:red;
+          }
+
+          #deel2 {
+            align-self: auto;
+            background: red;
+          }
+          #deel3 {
+            align-self: stretch;
+            background: red;
+          }
+          #deel4 {
+            align-self: center;
+            background: red;
+          }
+        
+          #deel5 {
+            align-self: flex-start;
+            background: red;
+          }
+          #deel6 {
+            align-self: initial;
+            background: red;
+          }
+        
+          #deel7 {
+            align-self: baseline;
+            background: red;
+          }
+
+
+        </style>
+    </head>
+    <body>
+      <h3>CSS align-self Property</h3>
+      <section style="background-color: blue">
+        <div id="deel1">flex-end</div>
+        <div>Deel 2</div>
+        <div>Deel 3</div>
+        <div>Deel 4</div>
+        <div>Deel 5</div>
+        <div>Deel 6</div>
+        <div>Deel 7</div>
+        <p>
+          The element is positioned at the end of the container	
+        </p>
+      </section>
+      <section style="background-color: green">
+        <div>Deel 1</div>
+        <div id="deel2">auto</div>
+        <div>Deel 3</div>
+        <div>Deel 4</div>
+        <div>Deel 5</div>
+        <div>Deel 6</div>
+        <div>Deel 7</div>
+        <p>
+          Default. The element inherits its parent container's 
+          align-items property, or "stretch" if it has no parent container
+        </p>
+      </section>
+      <section style="background-color: pink">
+        <div>Deel 1</div>
+        <div>Deel 2</div>
+        <div id="deel3">stretch</div>
+        <div>Deel 4</div>
+        <div>Deel 5</div>
+        <div>Deel 6</div>
+        <div>Deel 7</div>
+        <p>
+          The element is positioned to fit the container
+        </p>
+      </section>
+      <section style="background-color: gray">
+        <div>Deel 1</div>
+        <div>Deel 2</div>
+        <div>Deel 3</div>
+        <div id="deel4">center</div>
+        <div>Deel 5</div>
+        <div>Deel 6</div>
+        <div>Deel 7</div>
+        <p>
+          The element is positioned at the center of the container
+        </p>
+        <p></p>
+      </section>
+      <section style="background-color: magenta">
+        <div>Deel 1</div>
+        <div>Deel 2</div>
+        <div>Deel 3</div>
+        <div>Deel 4</div>
+        <div id="deel5">flex start</div>
+        <div>Deel 6</div>
+        <div>Deel 7</div>
+        <p>
+          The element is positioned at the beginning of the container
+        </p>
+      </section>
+    </section>
+    <section style="background-color: yellow">
+      <div>Deel 1</div>
+      <div>Deel 2</div>
+      <div>Deel 3</div>
+      <div>Deel 4</div>
+      <div>Deel 5</div>
+      <div id="deel6">initial</div>
+      <div>Deel 7</div>
+      <p>
+        Sets this property to its default value. 
+      </p>
+    </section>
+  </section>
+  <section style="background-color: brown">
+    <div>Deel 1</div>
+    <div>Deel 2</div>
+    <div>Deel 3</div>
+    <div>Deel 4</div>
+    <div>Deel 5</div>
+    <div>Deel 6</div>
+    <div id="deel7">baseline</div>
+    <p>
+      The element is positioned at the baseline of the container
+    </p>
+  </section>
+    </body> 
+</html>   
