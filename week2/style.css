@@ -195,4 +195,8 @@ p:hover {
 }
 
 img {
-width: 200px;}
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
