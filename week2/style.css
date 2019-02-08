@@ -84,7 +84,7 @@ p:hover {
   margin: 10px;
   background-color: #f6e7d2;
   box-sizing: border-box;
-  height: 500px;
+  height: 420px;
 }
 
 #grid-floats .grid-item {
@@ -199,4 +199,7 @@ img {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (min-width: 1024px){ #grid-floats li:nth-child(1) img, #grid-flex li:nth-child(1) img {width:60%;}
 }
