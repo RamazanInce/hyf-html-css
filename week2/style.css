@@ -183,7 +183,7 @@ p:hover {
   }
 }
 
-/** #grid-floats li:nth-child(1),
+#grid-floats li:nth-child(1),
 #grid-flex li:nth-child(1) {
   border: 10px solid gray;
   animation: myanim 3s infinite;
@@ -192,7 +192,7 @@ p:hover {
   20% {
     border-color: red;
   }
-} **/
+}
 
 img {
   display: block;
