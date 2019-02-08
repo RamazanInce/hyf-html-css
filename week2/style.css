@@ -94,7 +94,7 @@ p:hover {
 @media (min-width: 480px) and (max-width: 1024px) {
   #grid-floats .grid-item {
     background-color: #ccffcc;
-    width: calc(33% - 20px);
+    width: calc(100%/3 - 20px);
   }
 }
 
@@ -160,7 +160,7 @@ p:hover {
 @media (min-width: 480px) and (max-width: 1024px) {
   #grid-flex .grid-item {
     background-color: #66ccff;
-    width: calc(33% - 20px);
+    width: calc(100%/3 - 20px);
   }
 }
 
