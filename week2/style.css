@@ -32,7 +32,7 @@ p:hover {
 }
 
 #grid-floats li:nth-child(1) {
-  width: calc(50% - 40px);
+  width: calc(50% - 20px);
   background-color: #ffcf79;
   float: left;
 }
@@ -40,7 +40,7 @@ p:hover {
 @media (max-width: 479px) {
   #grid-floats li:nth-child(1) {
     background-color: #cccc00;
-    width: calc(100% - 40px);
+    width: calc(100% - 20px);
   }
 }
 
@@ -84,7 +84,7 @@ p:hover {
   margin: 10px;
   background-color: #f6e7d2;
   box-sizing: border-box;
-  height: 420px;
+  height: 500px;
 }
 
 #grid-floats .grid-item {
@@ -111,14 +111,14 @@ p:hover {
 }
 
 #grid-flex li:nth-child(1) {
-  width: calc(50% - 40px);
+  width: calc(50% - 20px);
   background-color: #ff6600;
 }
 
 @media (max-width: 479px) {
   #grid-flex li:nth-child(1) {
     background-color: #ccff33;
-    width: calc(100% - 40px);
+    width: calc(100% - 20px);
   }
 }
 #grid-flex li:nth-child(2) {
