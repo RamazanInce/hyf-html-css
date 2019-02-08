@@ -201,5 +201,8 @@ img {
   margin-left: auto;
 }
 
-@media (min-width: 1024px){ #grid-floats li:nth-child(1) img, #grid-flex li:nth-child(1) img {width:60%;}
+@media (min-width: 1024px){ 
+  #grid-floats li:nth-child(1) img, 
+  #grid-flex li:nth-child(1) img {
+    width:60%;}
 }
