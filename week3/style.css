@@ -1,0 +1,420 @@
+body {
+  background: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-header-muumimuseo.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.main-body {
+  margin: auto;
+  display: block;
+  line-height: 1.42857143;
+  color: #333;
+  font-size: 16px;
+  font-family: "bodoni_egyptian_promedium";
+  width: 1024px;
+}
+
+.container {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+.header-all {
+  width: 1040px;
+}
+
+.language {
+  position: absolute;
+  top: 50px;
+  right: 90px;
+}
+
+#language-checkbox {
+  position: absolute;
+  right: 20px;
+}
+
+.header-menu {
+  height: 80px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+.header-menu ul {
+  text-transform: uppercase;
+  list-style-type: none;
+  display: block;
+  position: relative;
+  float: left;
+  list-style: none;
+  padding-top: 20px;
+  margin-left: -25px;
+}
+
+.menu-item a:link,
+.news-link a:link {
+  text-decoration: none;
+}
+
+#horizontal-menu a:hover {
+  text-decoration: underline;
+}
+
+#horizontal-menu li {
+  display: inline;
+  padding: 40px 10px;
+}
+
+img {
+  display: block;
+  float: left;
+  position: relative;
+}
+.logo img {
+  padding: 4px;
+}
+a {
+  color: rgb(51, 51, 51);
+}
+.main-banner {
+  width: 1024px;
+}
+
+.main-banner-text {
+  position: relative;
+  text-align: center;
+  height: 0px;
+  left: calc(50% - 340px);
+  z-index: 2;
+  padding: 10px 85px 15px;
+  width: 750px;
+  max-width: 100%;
+  font-family: "bodoni_egyptian_promedium";
+}
+.white-background {
+  position: relative;
+  top: 250px;
+  left: calc(50% - 340px);
+  height: 120px;
+  width: 750px;
+  background-color: white;
+  z-index: 1;
+}
+h1 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: #35733c;
+}
+h2 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.circle-orange {
+  position: relative;
+  top: -80px;
+  left: 600px;
+  z-index: 3;
+  font-family: "quimby-mayoral", sans-serif;
+  background: #e94e0f;
+  color: #fff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  padding-top: 30px;
+  font-size: 35px;
+  text-decoration: none;
+}
+.main-banner-row img {
+  width: 1024px;
+}
+
+.main-banner-text a {
+  text-decoration: none;
+}
+.main-banner::after {
+  content: ".";
+  color: #35733c;
+}
+
+.info-container {
+  padding: 10px 100px 10px 100px;
+  text-align: center;
+  width: 1024px;
+  font-family: "bodoni_egyptian_promedium";
+  background-color: #35733c;
+  font-size: 14px;
+  height: 50px;
+  color: #fff;
+  margin-top: -18px;
+}
+.front-info {
+  height: 50px;
+}
+
+.info-container-card {
+  position: relative;
+  top: -37px;
+  left: 855px;
+}
+
+.eyes-left {
+  position: relative;
+  left: -140px;
+  z-index: 2;
+}
+
+.eyes-right {
+  position: relative;
+  left: 506px;
+  z-index: 2;
+}
+
+.ex::before,
+.ex::after {
+  display: table;
+  content: " ";
+}
+
+.ex {
+  width: 1020px;
+  height: 189px;
+  background: #363636;
+  text-align: center;
+  color: red;
+  position: relative;
+  padding-top: 75px;
+}
+.ex h2 {
+  position: relative;
+  left: -280px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  font-family: "bodoni_egyptian_promedium";
+  font-weight: 400;
+  z-index: 3;
+}
+
+.news-up-container {
+  display: flex;
+  width: 1024px;
+}
+
+.img-taika,
+.img-bazar {
+  width: 256px;
+}
+.img-drawing {
+  width: 512px;
+}
+
+.news-up-container h2 {
+  margin-top: 0;
+  font-family: "bodoni_egyptian_probold";
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.news-columna p {
+  margin: 0 0 10px;
+  font-family: "bodoni_egyptian_promedium";
+  font-size: 16px;
+}
+.date {
+  color: #35733c;
+}
+
+.news-text {
+  padding: 30px;
+}
+.news-text::before {
+  content: ".";
+  color: white;
+}
+
+.eyes h2 {
+  color: #fff;
+  width: 640px;
+  text-align: center;
+  padding: 80px;
+  height: 188.9px;
+  background-color: #363636;
+  font-size: 50px;
+  font-family: "bodoni_egyptian_promedium";
+  font-weight: 400;
+}
+
+.eyes-img {
+  padding: 41.5px 0px 0px 0px;
+}
+
+.news-float {
+  display: flex;
+  margin: auto;
+  width: 1024px;
+}
+
+.event-text {
+  width: 550px;
+  margin: auto;
+}
+.event-text h2 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  font-size: 30px;
+  margin-top: 0;
+  font-family: "bodoni_egyptian_probold";
+}
+.event-text a {
+  text-decoration: none;
+}
+.circle-new {
+  position: relative;
+  top: -180px;
+  left: 630px;
+  z-index: 3;
+  font-family: "quimby-mayoral", sans-serif;
+  background: #e94e0f;
+  color: #fff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  padding-top: 30px;
+  font-size: 35px;
+  text-decoration: none;
+}
+.event-text-container {
+  background: #7ab7bc;
+  color: #404041;
+  padding: 20px 20px 20px 20px;
+  top: 50px;
+  height: 520px;
+  width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+
+.event-text h3 {
+  color: #fff;
+}
+
+.event-container {
+  margin-top: -44px;
+}
+
+.quote::before,
+.quote::after {
+  content: ". ";
+}
+
+.quote p,
+.last-text p {
+  position: relative;
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.1;
+  font-family: "quimby-mayoral", sans-serif;
+  margin: auto;
+  width: 1024px;
+  padding-top: 20px;
+}
+.quote-in {
+  font-family: "bodoni_egyptian_promedium";
+  color: #35733c;
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.last-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: auto;
+}
+.last-element {
+  width: 50%;
+}
+.last-text {
+  width: 1024px;
+}
+.last img {
+  width: 512px;
+}
+.after-text::before {
+  content: ".";
+}
+.before-text::before,
+.before-text::after {
+  content: ".";
+}
+
+.footer-logo {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer-logo img {
+  width: calc(100%/3);
+}
+
+.footer-list-item {
+  float: left;
+  width: calc(100%/6);
+  padding-top: 100px;
+}
+
+.footer-list::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer-list-item ul {
+  list-style-type: none;
+}
+.footer a {
+  color: #fff;
+}
+h4 {
+  text-transform: uppercase;
+}
+.footer-list-item a:link {
+  text-decoration: none;
+}
+
+.footer {
+  color: #fff;
+}
+.footer-list-item a:hover {
+  text-decoration: underline;
+}
+
+.footer ul,
+.footer-list li {
+  margin: 0;
+  padding: 0;
+}
+.footer-sample {
+  width: 2000px;
+  padding: 200px;
+  background: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg);
+  background-position: right bottom;
+}
