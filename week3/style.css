@@ -20,9 +20,51 @@ body {
   display: block;
 }
 
+
 * {
   box-sizing: border-box;
 }
+.dropbtn { 
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  #32804B;
+  min-width: 160px;
+  z-index: 30;
+  margin-top: 25px;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  background-color: transparent;
+  font-family: "Montserrat",sans-serif;
+  font-size: 10px;
+  text-transform:capitalize;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.dropdown:hover
+.dropdown-content {
+  display: block;
+}
+
 .header-all {
   width: 1040px;
 }
