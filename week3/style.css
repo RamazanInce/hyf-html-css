@@ -70,7 +70,7 @@ body {
   text-decoration: underline;
 }
 
-#horizontal-menu li {
+.menu-item {
   display: inline;
   padding: 40px 10px;
 }
@@ -351,6 +351,9 @@ h2 {
 .last-element {
   width: 50%;
 }
+.last-element h2, .last-element p{
+  padding: 15px 30px 0px 30px;
+}
 .last-text {
   width: 1024px;
 }
@@ -418,3 +421,50 @@ h4 {
   background: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg);
   background-position: right bottom;
 }
+
+.footer-end-content,
+.social-icon, .trademark {
+  float: left;
+  list-style-type: none;
+}
+.footer-end {
+  margin: auto;
+  display: block;
+  line-height: 1.42857143;
+  color: #333;
+  font-size: 16px;
+  font-family: "bodoni_egyptian_promedium";
+  width: 1024px;
+  padding-top: 40px;
+}
+.footer-end-content {
+  width: calc(100%/3);
+}
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-youtube {
+  background: white;
+  color: #32804B;
+  border: 4px solid white;
+}
+
+.trademark {
+  float: left;
+ }
+.trademarkone {
+  width: 80%;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;}
+
+.trademarktwo {
+  width: 10%;}
+
