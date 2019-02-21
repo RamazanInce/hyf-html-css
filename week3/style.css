@@ -20,11 +20,10 @@ body {
   display: block;
 }
 
-
 * {
   box-sizing: border-box;
 }
-.dropbtn { 
+.dropbtn {
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -39,7 +38,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:  #32804B;
+  background-color: #32804b;
   min-width: 160px;
   z-index: 30;
   margin-top: 25px;
@@ -51,33 +50,21 @@ body {
   text-decoration: none;
   display: block;
   background-color: transparent;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 10px;
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 
 .dropdown-content a:hover {
   text-decoration: underline;
 }
 
-.dropdown:hover
-.dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
 .header-all {
   width: 1040px;
-}
-
-.language {
-  position: absolute;
-  top: 50px;
-  right: 90px;
-}
-
-#language-checkbox {
-  position: absolute;
-  right: 20px;
 }
 
 .header-menu {
@@ -117,11 +104,57 @@ body {
   padding: 40px 10px;
 }
 
+ul#flag-menu > li {
+  float: left;
+  list-style-type: none;
+  position: relative;
+}
+
+label {
+  position: relative;
+  display: block;
+  padding: 0 18px 0 12px;
+  line-height: 3em;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+input {
+  display: none;
+}
+
+input:checked ~ ul.submenu {
+  max-height: 300px;
+}
+
+ul.submenu {
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  position: absolute;
+  min-width: 100%;
+  margin-top: 30px;
+}
+
+#flag-menu {
+  position: absolute;
+  top: 50px;
+  right: 90px;
+}
+
 img {
   display: block;
   float: left;
   position: relative;
 }
+#flag-menu li {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  z-index: 600;
+}
+
 .logo img {
   padding: 4px;
 }
@@ -393,7 +426,8 @@ h2 {
 .last-element {
   width: 50%;
 }
-.last-element h2, .last-element p{
+.last-element h2,
+.last-element p {
   padding: 15px 30px 0px 30px;
 }
 .last-text {
@@ -458,14 +492,15 @@ h4 {
   padding: 0;
 }
 .footer-sample {
-  width: 2000px;
+  width: 100%;
   padding: 200px;
   background: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg);
   background-position: right bottom;
 }
 
 .footer-end-content,
-.social-icon, .trademark {
+.social-icon,
+.trademark {
   float: left;
   list-style-type: none;
 }
@@ -495,18 +530,19 @@ h4 {
 .fa-instagram,
 .fa-youtube {
   background: white;
-  color: #32804B;
+  color: #32804b;
   border: 4px solid white;
 }
 
 .trademark {
   float: left;
- }
+}
 .trademarkone {
   width: 80%;
-    font-family: "Montserrat",sans-serif;
-    font-size: 12px;}
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
 
 .trademarktwo {
-  width: 10%;}
-
+  width: 10%;
+}
