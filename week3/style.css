@@ -2,6 +2,7 @@ body {
   background: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-header-muumimuseo.png);
   background-repeat: no-repeat;
   background-position: right top;
+  font-family: 'Slabo 27px', serif;
 }
 .main-body {
   margin: auto;
@@ -9,7 +10,6 @@ body {
   line-height: 1.42857143;
   color: #333;
   font-size: 16px;
-  font-family: "bodoni_egyptian_promedium";
   width: 1024px;
 }
 
@@ -18,11 +18,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+
 }
 
 * {
   box-sizing: border-box;
 }
+
+/** dropdown menu style **/
 .dropbtn {
   color: white;
   padding: 16px;
@@ -63,15 +66,15 @@ body {
   display: block;
 }
 
-.header-all {
-  width: 1040px;
-}
-
 .header-menu {
   height: 80px;
   font-size: 14px;
   letter-spacing: 1px;
   font-family: "Montserrat", sans-serif;
+}
+
+.header-all {
+  width: 1080px;
 }
 
 .table {
@@ -174,8 +177,7 @@ a {
   padding: 10px 85px 15px;
   width: 750px;
   max-width: 100%;
-  font-family: "bodoni_egyptian_promedium";
-}
+ }
 .white-background {
   position: relative;
   top: 250px;
@@ -200,7 +202,7 @@ h2 {
   top: -80px;
   left: 600px;
   z-index: 3;
-  font-family: "quimby-mayoral", sans-serif;
+  font-family: 'Dancing Script', cursive;
   background: #e94e0f;
   color: #fff;
   border-radius: 50%;
@@ -226,7 +228,6 @@ h2 {
   padding: 10px 100px 10px 100px;
   text-align: center;
   width: 1024px;
-  font-family: "bodoni_egyptian_promedium";
   background-color: #35733c;
   font-size: 14px;
   height: 50px;
@@ -277,8 +278,7 @@ h2 {
   text-align: center;
   margin: 0;
   font-size: 50px;
-  font-family: "bodoni_egyptian_promedium";
-  font-weight: 400;
+   font-weight: 400;
   z-index: 3;
 }
 
@@ -297,8 +297,7 @@ h2 {
 
 .news-up-container h2 {
   margin-top: 0;
-  font-family: "bodoni_egyptian_probold";
-  font-size: 30px;
+   font-size: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   line-height: 1.1;
@@ -307,7 +306,6 @@ h2 {
 
 .news-columna p {
   margin: 0 0 10px;
-  font-family: "bodoni_egyptian_promedium";
   font-size: 16px;
 }
 .date {
@@ -330,8 +328,7 @@ h2 {
   height: 188.9px;
   background-color: #363636;
   font-size: 50px;
-  font-family: "bodoni_egyptian_promedium";
-  font-weight: 400;
+   font-weight: 400;
 }
 
 .eyes-img {
@@ -354,7 +351,7 @@ h2 {
   color: inherit;
   font-size: 30px;
   margin-top: 0;
-  font-family: "bodoni_egyptian_probold";
+  
 }
 .event-text a {
   text-decoration: none;
@@ -364,7 +361,7 @@ h2 {
   top: -180px;
   left: 630px;
   z-index: 3;
-  font-family: "quimby-mayoral", sans-serif;
+ font-family: 'Dancing Script', cursive;
   background: #e94e0f;
   color: #fff;
   border-radius: 50%;
@@ -404,13 +401,12 @@ h2 {
   text-align: center;
   font-size: 44px;
   line-height: 1.1;
-  font-family: "quimby-mayoral", sans-serif;
+ font-family: 'Dancing Script', cursive;
   margin: auto;
   width: 1024px;
   padding-top: 20px;
 }
 .quote-in {
-  font-family: "bodoni_egyptian_promedium";
   color: #35733c;
   font-size: 30px;
   padding-top: 20px;
@@ -503,6 +499,7 @@ h4 {
 .trademark {
   float: left;
   list-style-type: none;
+  
 }
 .footer-end {
   margin: auto;
@@ -510,12 +507,13 @@ h4 {
   line-height: 1.42857143;
   color: #333;
   font-size: 16px;
-  font-family: "bodoni_egyptian_promedium";
   width: 1024px;
   padding-top: 40px;
+  font-family: "bodoni_egyptian_promedium", cursive;
 }
 .footer-end-content {
   width: calc(100%/3);
+
 }
 .fa {
   font-size: 30px;
@@ -525,13 +523,15 @@ h4 {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   text-rendering: auto;
+  
 }
 .fa-facebook,
 .fa-instagram,
 .fa-youtube {
-  background: white;
+  background: red;
   color: #32804b;
-  border: 4px solid white;
+  border: 4px solid green;
+   z-index: 2005;
 }
 
 .trademark {
@@ -546,3 +546,4 @@ h4 {
 .trademarktwo {
   width: 10%;
 }
+
