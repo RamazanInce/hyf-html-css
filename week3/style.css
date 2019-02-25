@@ -69,9 +69,10 @@ body {
 
 .header-menu {
   height: 80px;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 1px;
   font-family: "Montserrat", sans-serif;
+  margin-right: 60px;
 }
 
 .header-all {
@@ -308,6 +309,11 @@ h2 {
   font-size: 16px;
 }
 
+.news-column img, .news-columna img, .quote-in {
+  padding-bottom: 30px;
+}
+
+  
 .date {
   color: #35733c;
 }
@@ -438,7 +444,7 @@ h2 {
 
 .footer-list-item {
   float: left;
-  width: calc(100%/6);
+  width: 16.6%;
   padding-top: 100px;
 }
 
@@ -472,7 +478,8 @@ h4 {
 
 .footer-sample {
   width: 100%;
-  padding: 200px;
+  padding-top: 250px;
+  padding-bottom: 250px;
   background: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg);
   background-position: right bottom; 
 }
@@ -526,4 +533,16 @@ h4 {
 
 .trademarktwo {
   width: 10%;
+}
+ 
+.boxbtn {
+      width: 140px;
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    letter-spacing: 1px;
+  float: left;
+  text-align: center;
+
 }
