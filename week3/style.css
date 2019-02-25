@@ -2,15 +2,16 @@ body {
   background: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-header-muumimuseo.png);
   background-repeat: no-repeat;
   background-position: right top;
-  font-family: 'Slabo 27px', serif;
+  font-family: "Slabo 27px", serif;
 }
+
 .main-body {
   margin: auto;
   display: block;
   line-height: 1.42857143;
   color: #333;
   font-size: 16px;
-  width: 1024px;
+  width: 1140px;
 }
 
 .container {
@@ -18,7 +19,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-
 }
 
 * {
@@ -26,6 +26,7 @@ body {
 }
 
 /** dropdown menu style **/
+
 .dropbtn {
   color: white;
   padding: 16px;
@@ -151,6 +152,7 @@ img {
   float: left;
   position: relative;
 }
+
 #flag-menu li {
   display: flex;
   flex-direction: column;
@@ -161,11 +163,9 @@ img {
 .logo img {
   padding: 4px;
 }
+
 a {
   color: rgb(51, 51, 51);
-}
-.main-banner {
-  width: 1024px;
 }
 
 .main-banner-text {
@@ -177,7 +177,8 @@ a {
   padding: 10px 85px 15px;
   width: 750px;
   max-width: 100%;
- }
+}
+
 .white-background {
   position: relative;
   top: 250px;
@@ -187,22 +188,24 @@ a {
   background-color: white;
   z-index: 1;
 }
+
 h1 {
   font-weight: 500;
   line-height: 1.1;
   color: #35733c;
 }
+
 h2 {
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
 }
+
 .circle-orange {
   position: relative;
   top: -80px;
   left: 600px;
   z-index: 3;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   background: #e94e0f;
   color: #fff;
   border-radius: 50%;
@@ -212,36 +215,39 @@ h2 {
   font-size: 35px;
   text-decoration: none;
 }
+
 .main-banner-row img {
-  width: 1024px;
+  width: 1140px;
 }
 
 .main-banner-text a {
   text-decoration: none;
 }
+
 .main-banner::after {
   content: ".";
   color: #35733c;
 }
 
 .info-container {
-  padding: 10px 100px 10px 100px;
+  padding: 20px 100px 10px 100px;
   text-align: center;
-  width: 1024px;
   background-color: #35733c;
   font-size: 14px;
-  height: 50px;
+  height: 77.5px;
   color: #fff;
   margin-top: -18px;
+  letter-spacing: 1.5px;
 }
+
 .front-info {
   height: 50px;
 }
 
 .info-container-card {
   position: relative;
-  top: -37px;
-  left: 855px;
+  top: -40px;
+  left: 950px;
 }
 
 .eyes-left {
@@ -252,18 +258,11 @@ h2 {
 
 .eyes-right {
   position: relative;
-  left: 506px;
+  left: 600px;
   z-index: 2;
 }
 
-.ex::before,
-.ex::after {
-  display: table;
-  content: " ";
-}
-
 .ex {
-  width: 1020px;
   height: 189px;
   background: #363636;
   text-align: center;
@@ -271,6 +270,7 @@ h2 {
   position: relative;
   padding-top: 75px;
 }
+
 .ex h2 {
   position: relative;
   left: -280px;
@@ -278,36 +278,36 @@ h2 {
   text-align: center;
   margin: 0;
   font-size: 50px;
-   font-weight: 400;
+  font-weight: 400;
   z-index: 3;
+}
+
+.container-news {
+  margin-left: 140px;
 }
 
 .news-up-container {
   display: flex;
-  width: 1024px;
 }
 
 .img-taika,
 .img-bazar {
-  width: 256px;
-}
-.img-drawing {
-  width: 512px;
+  width: 285px;
 }
 
 .news-up-container h2 {
   margin-top: 0;
-   font-size: 30px;
+  font-size: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
 }
 
 .news-columna p {
   margin: 0 0 10px;
   font-size: 16px;
 }
+
 .date {
   color: #35733c;
 }
@@ -315,10 +315,7 @@ h2 {
 .news-text {
   padding: 30px;
 }
-.news-text::before {
-  content: ".";
-  color: white;
-}
+
 
 .eyes h2 {
   color: #fff;
@@ -328,7 +325,7 @@ h2 {
   height: 188.9px;
   background-color: #363636;
   font-size: 50px;
-   font-weight: 400;
+  font-weight: 400;
 }
 
 .eyes-img {
@@ -338,30 +335,30 @@ h2 {
 .news-float {
   display: flex;
   margin: auto;
-  width: 1024px;
 }
 
 .event-text {
-  width: 550px;
+  width: 570px;
   margin: auto;
 }
+
 .event-text h2 {
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
   font-size: 30px;
   margin-top: 0;
-  
 }
+
 .event-text a {
   text-decoration: none;
 }
+
 .circle-new {
   position: relative;
   top: -180px;
   left: 630px;
   z-index: 3;
- font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   background: #e94e0f;
   color: #fff;
   border-radius: 50%;
@@ -371,13 +368,13 @@ h2 {
   font-size: 35px;
   text-decoration: none;
 }
+
 .event-text-container {
   background: #7ab7bc;
   color: #404041;
   padding: 20px 20px 20px 20px;
   top: 50px;
   height: 520px;
-  width: 1024px;
   margin: auto;
   text-align: center;
 }
@@ -386,26 +383,17 @@ h2 {
   color: #fff;
 }
 
-.event-container {
-  margin-top: -44px;
-}
-
-.quote::before,
-.quote::after {
-  content: ". ";
-}
-
 .quote p,
 .last-text p {
   position: relative;
   text-align: center;
   font-size: 44px;
   line-height: 1.1;
- font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   margin: auto;
-  width: 1024px;
   padding-top: 20px;
 }
+
 .quote-in {
   color: #35733c;
   font-size: 30px;
@@ -419,25 +407,23 @@ h2 {
   position: relative;
   margin: auto;
 }
+
 .last-element {
   width: 50%;
 }
+
 .last-element h2,
 .last-element p {
   padding: 15px 30px 0px 30px;
 }
+
 .last-text {
-  width: 1024px;
+  width: 1140px;
 }
+
+.img-drawing,
 .last img {
-  width: 512px;
-}
-.after-text::before {
-  content: ".";
-}
-.before-text::before,
-.before-text::after {
-  content: ".";
+  width: 570px;
 }
 
 .footer-logo {
@@ -456,28 +442,24 @@ h2 {
   padding-top: 100px;
 }
 
-.footer-list::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .footer-list-item ul {
   list-style-type: none;
 }
-.footer a {
-  color: #fff;
-}
+
+
+
 h4 {
   text-transform: uppercase;
 }
+
 .footer-list-item a:link {
   text-decoration: none;
 }
 
-.footer {
+.footer, .footer a {
   color: #fff;
 }
+
 .footer-list-item a:hover {
   text-decoration: underline;
 }
@@ -485,13 +467,14 @@ h4 {
 .footer ul,
 .footer-list li {
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
+
 .footer-sample {
   width: 100%;
   padding: 200px;
   background: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg);
-  background-position: right bottom;
+  background-position: right bottom; 
 }
 
 .footer-end-content,
@@ -499,22 +482,22 @@ h4 {
 .trademark {
   float: left;
   list-style-type: none;
-  
 }
+
 .footer-end {
   margin: auto;
   display: block;
   line-height: 1.42857143;
   color: #333;
   font-size: 16px;
-  width: 1024px;
-  padding-top: 40px;
-  font-family: "bodoni_egyptian_promedium", cursive;
+  padding: 30px 15px;
+  width: 1170px;
 }
+
 .footer-end-content {
   width: calc(100%/3);
-
 }
+
 .fa {
   font-size: 30px;
   width: 50px;
@@ -523,20 +506,18 @@ h4 {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   text-rendering: auto;
-  
 }
+
 .fa-facebook,
 .fa-instagram,
 .fa-youtube {
-  background: red;
-  color: #32804b;
-  border: 4px solid green;
-   z-index: 2005;
+  color: #32804b;  
 }
 
 .trademark {
   float: left;
 }
+
 .trademarkone {
   width: 80%;
   font-family: "Montserrat", sans-serif;
@@ -546,4 +527,3 @@ h4 {
 .trademarktwo {
   width: 10%;
 }
-
